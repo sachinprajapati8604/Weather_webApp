@@ -19,5 +19,5 @@
 * a good  ux/ui 
 
 
- <img src="https://your-image-url.type" width="100" height="100">
+ <img src="img/bg.jpg" width="100%" height="500px">
 
