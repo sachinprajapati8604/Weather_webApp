@@ -4,6 +4,10 @@
 
 ### This  web project done in html,css ,js
 
+#### Web link 
+
+ https://sachinprajapati8604.github.io/Weather_webApp/
+ 
 ### Features of the project.
 
 * It provide dynamic weather data like temp, min max temp etc.
@@ -14,9 +18,7 @@
 * it will give you  alert if city name not matched with api  data.
 * a good  ux/ui 
 
-#### Web link 
 
- https://sachinprajapati8604.github.io/Weather_webApp/
  
  ![GitHub Logo](/img/bg.jpg)
 
