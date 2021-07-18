@@ -7,4 +7,6 @@
 #### Web link 
 
  https://sachinprajapati8604.github.io/Weather_webApp/
+ 
+ ![GitHub Logo](/img/bg.jpg)
 
