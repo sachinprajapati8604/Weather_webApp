@@ -5,13 +5,16 @@
 }
 body {
   background-image: url("img/bg1.jpg");
-  height: 93vh;
+  min-height: 100vh;
   /* overflow: hidden; */
   background-repeat: no-repeat;
   background-position: top center;
   font-family: Arial, Helvetica, sans-serif;
   background-size: cover;
+}
+.container{
   position: relative;
+  min-height: 100vh;
 }
 .header h4{
   font-weight: bold;
