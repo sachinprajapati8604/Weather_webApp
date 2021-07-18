@@ -19,5 +19,16 @@
 * a good  ux/ui 
 
 
- <img src="img/bg.jpg" width="100%" height="500px">
+### Snapshot
+
+* Default 
+<img src="ss/demo1.png" width="100%" height="500px">
+
+* <img src="ss/demo.png" width="100%" height="500px">
+
+* <img src="ss/empty.png" width="100%" height="500px">
+
+* <img src="ss/bad.png" width="100%" height="500px">
+
+
 
