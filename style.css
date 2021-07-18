@@ -5,12 +5,13 @@
 }
 body {
   background-image: url("img/bg1.jpg");
-  height: 100vh;
-  overflow: hidden;
+  height: 93vh;
+  /* overflow: hidden; */
   background-repeat: no-repeat;
   background-position: top center;
   font-family: Arial, Helvetica, sans-serif;
   background-size: cover;
+  position: relative;
 }
 .header h4{
   font-weight: bold;
@@ -18,13 +19,12 @@ body {
 
 }
 .app-main {
-
+  min-height: 10vh;
   width: 30vw;
   margin: 50px auto;
   background-color: #d3c8b9;
   padding: 20px;
   text-align: center;
-  position: relative;
 }
 .app-main > * {
   margin-bottom: 20px;
@@ -84,15 +84,15 @@ body {
 }
 
 .footer{ 
-  position: absolute;
-  bottom: 0;
   background-color:#6b97db;
   color: #fff;
   width: 100%;
   padding: 12px;
   text-align: center;
-  margin-top: 0px;
+  margin-top: 20px;
   font-size: 0.9rem;
+ position: absolute;
+ bottom: 0;
 }
 
 @media screen and (max-width: 800px) {
