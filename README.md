@@ -19,6 +19,5 @@
 * a good  ux/ui 
 
 
- 
- ![GitHub Logo](/img/bg.jpg)
+ <img src="https://your-image-url.type" width="100" height="100">
 
