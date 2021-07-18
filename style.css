@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("img/bg1.jpg");
+  height: 100vh;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: top center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-size: cover;
+}
+.header h4{
+  font-weight: bold;
+  font-size: 2rem;
+
+}
+.app-main {
+
+  width: 30vw;
+  margin: 50px auto;
+  background-color: #d3c8b9;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+.app-main > * {
+  margin-bottom: 20px;
+}
+.input-box {
+  width: 100%;
+  background: azure;
+  border: none;
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  outline: none;
+  border: none;
+}
+
+.weather-body {
+  color: brown;
+  padding: 20px;
+  line-height: 2rem;
+  border-radius: 10px;
+  background-color: #eff1f3;
+  display: none;
+}
+.location-deatils {
+  font-weight: bold;
+}
+.weather-status {
+  padding: 20px;
+}
+.temp {
+  font-size: 5rem;
+  font-weight: 700;
+  margin-bottom: 20px 0px;
+  text-shadow: 2px 4px rgba(0, 0, 0, 0.1);
+}
+.weather {
+  margin-top: 25px;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+.min-max {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-top: 15px;
+}
+
+.day_details {
+  padding: 20px;
+}
+.sun-detail,
+.basic {
+  font-size: 1rem;
+}
+#weather-icon{
+  color: black;
+}
+
+.footer{ 
+  position: absolute;
+  bottom: 0;
+  background-color:#6b97db;
+  color: #fff;
+  width: 100%;
+  padding: 12px;
+  text-align: center;
+  margin-top: 0px;
+  font-size: 0.9rem;
+}
+
+@media screen and (max-width: 800px) {
+  .app-main {
+    width: 95%;
+    padding: 10px;
+  }
+  .footer{
+    font-size: 0.8rem;
+  }
+}
