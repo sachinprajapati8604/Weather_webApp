@@ -5,7 +5,7 @@
 }
 body {
   background-image: url("img/bg1.jpg");
-  min-height: 100vh;
+  min-height: 70vh;
   /* overflow: hidden; */
   background-repeat: no-repeat;
   background-position: top center;
