@@ -8,6 +8,10 @@
 
  https://sachinprajapati8604.github.io/Weather_webApp/
  
+ #### netlify link
+ 
+ https://spweather.netlify.app/
+ 
 ### Features of the project.
 
 * It provide dynamic weather data like temp, min max temp etc.
