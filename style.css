@@ -5,8 +5,8 @@
 }
 body {
   background-image: url("img/bg1.jpg");
-  min-height: 100vh;
-  overflow: hidden;
+  min-height: 92vh;
+  overflow: auto;
   background-repeat: no-repeat;
   background-position: top center;
   font-family: Arial, Helvetica, sans-serif;
@@ -88,6 +88,9 @@ body {
   .app-main {
     width: 95%;
     padding: 10px;
+  }
+  body{
+    min-height: 94vh;
   }
  
 }
