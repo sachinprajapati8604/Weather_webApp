@@ -61,7 +61,7 @@ function showWeaterReport(weather) {
     </div>
     <hr>
     <div class="day-details">
-        <div class="basic">Feels like ${weather.main.feels_like}&deg;C | Humidity ${weather.main.humidity}%  <br> Pressure ${weather.main.pressure} mb | Wind ${weather.wind.speed} km/h</div>
+        <div class="basic">Feels like ${weather.main.feels_like}&deg;C | Humidity ${weather.main.humidity}%  <br> Pressure ${weather.main.pressure} mb | Wind ${weather.wind.speed} KMPH</div>
     </div>
     `;
     parent.append(weather_body);
