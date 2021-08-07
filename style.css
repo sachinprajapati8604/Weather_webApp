@@ -15,8 +15,9 @@ body {
 }
 
 .header h4 {
-  font-weight: bold;
-  font-size: 2rem;
+  color: #da1e4e;
+  font-weight: 700;
+  font-size: 2.4rem;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 .app-main {
@@ -45,8 +46,10 @@ body {
 .input-box {
   width: 100%;
   background: azure;
+  color: #e4603a;
+  font-weight: 500;
   border: none;
-  font-size: 20px;
+  font-size: 1.7rem;
   border-radius: 10px;
   padding: 10px;
   text-align: center;
@@ -63,8 +66,8 @@ body {
   display: none;
   background: linear-gradient(
     to top,
-    #082853,
-    #96acbe
+    #da1e4e,
+    #e4603a
   );
 }
 .location-deatils {
@@ -99,6 +102,13 @@ body {
 }
 #weather-icon {
   color: black;
+}
+
+.footer{
+  position: absolute;
+  bottom: 0;
+  color: #fff;
+  padding: 10px;
 }
 
 @media screen and (max-width: 800px) {
