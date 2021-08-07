@@ -75,8 +75,8 @@ function showWeaterReport(weather) {
 //making a function for the  last update current time 
 
 function getTime(todayDate) {
-    let hour = todayDate.getHours();
-    let minute = todayDate.getMinutes();
+    let hour =addZero(todayDate.getHours());
+    let minute =addZero(todayDate.getMinutes());
     return `${hour}:${minute}`;
 }
 
@@ -145,4 +145,12 @@ function getIconClass(classarg) {
 function reset() {
     let input = document.getElementById('input-box');
     input.value = "";
+}
+
+// funtion to add zero if hour and minute less than 10
+function addZero(i) {
+    if (i < 10) {
+        i = "0" + i;
+    }
+    return i;
 }
