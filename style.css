@@ -55,6 +55,7 @@ body {
   text-align: center;
   outline: none;
   border: none;
+  text-transform: capitalize;
 }
 
 .weather-body {
